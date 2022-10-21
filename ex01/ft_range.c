@@ -6,7 +6,7 @@
 /*   By: yusyamas <yuppiy2000@icloud.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/20 22:19:32 by yusyamas          #+#    #+#             */
-/*   Updated: 2022/10/20 23:11:31 by yusyamas         ###   ########.fr       */
+/*   Updated: 2022/10/21 15:12:08 by yusyamas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ int	*ft_range(int min, int max)
 	int	size;
 
 	if (min >= max)
-		return (-1);
+		return (NULL);
 	size = max - min;
 	ft = (int *)malloc(sizeof(int) * size);
 	ft_sub = ft;
